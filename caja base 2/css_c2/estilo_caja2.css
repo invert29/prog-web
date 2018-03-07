@@ -1,0 +1,72 @@
+
+
+
+
+.contenedor{
+margin: 10px auto;
+padding:20px;
+border: 1px solid blue;
+width: 80%;
+  height: 500px;
+  background-color: white;
+ 
+}
+.contenedor div {
+	border: 2px solid red;
+    margin: 10px;
+    padding:10px;
+	width: 20%;
+    height: 200px;
+    float: left;
+   
+   -moz-border-radius:20px /10px;
+    -webkit-border-radius:20px /10px;
+    -border-radius:20px/10px;
+    -moz-box-shadow:rgb(150,150,150)5px 5px; 
+    -webkit-box-shadow:rgb(150,150,150)5px 5px; 
+    box-shadow: rgb(150,150,150) 5px 5px;
+    /*background-image:url("..img/3.jpg"); */
+
+position: relative;/*trabaja on c/ cuadro*/
+  }
+  img{
+  	width: 30%;
+  height: 30%;
+  }
+  #c1{
+    background-color:rgba(255,25,50,0.5);
+color:blue;}
+#c2{
+  background-color:blue;
+color:white;
+}
+#c3{
+  background-color:black;
+color:blue;
+}
+
+  }
+  #c1 img{
+position: absolute;
+top:0px;
+right: 0px;
+background-color: red;
+color: green;
+
+  }
+  #c2 img{
+position: absolute;
+top:0px;
+right: 0px;
+background-color: red;
+color: green;
+
+  }
+  #c3 img{
+ position: absolute;
+ background-color: red;
+
+  left:50px;
+right: 50px;
+
+  }

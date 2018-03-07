@@ -1,0 +1,40 @@
+ul{
+	list-style-type:none;/*desectivo viñetas*/ 
+	margin: 0;
+	padding: 0;
+	overflow: hidden;/*k sucee si el cont del cuadreo sse desboorsa*/
+	background-color: #333
+}
+/*letra debe hacer italica*/
+li{
+	float: left;
+}
+
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover{/*si pasa ensima con el rtom*/
+	background-color: yellow;
+	color: #333
+	
+}
+
+
+
+li a:active{/*cuando haga click */
+	background-color: red;
+	/*font-size:120%;*/
+	transform: scaleX(1.3);
+	font-style: italic;
+}
+li:last-child{/*debe ir la imagen*/
+	float: right;
+	background-color: red;
+	
+
+}
